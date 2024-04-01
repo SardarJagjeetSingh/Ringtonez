@@ -4,7 +4,7 @@ import Hero from './component/Hero/Hero'
 
 const page = () => {
   return (
-    <div className='h-[100vh] w-[100%] bg-blue-100'>
+    <div >
       <Navigation/>
       <Hero/>
     </div>
