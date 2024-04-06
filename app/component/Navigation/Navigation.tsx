@@ -4,7 +4,7 @@ import { FaInstagram, FaYoutube } from 'react-icons/fa'
 
 const Navigation = () => {
   return (
-    <div className='h-[24px] w-[1216px] relative top-[32px] left-[32px] flex justify-between items-center'>
+    <div className='h-[24px] w-[1216px] relative top-[32px] left-[32px] flex justify-between items-center text-[#232323]'>
       <div className='h-[24px] w-[103px] Urbanist font-[700] text-[16px] leading-[24px]'>Ringtonez</div>
       <div className='h-[24px] w-[355px] flex justify-between items-center text-[16px] leading-[24px] gap-[48px]'>
         <Link href={`/`} className='hover:font-[700]'>Home</Link>

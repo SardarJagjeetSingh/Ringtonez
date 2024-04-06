@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaArrowRightLong } from 'react-icons/fa6'
 import Rectangle from '../Rectangle/Rectangle'
+import Searchbar from '../Searchbar/Searchbar'
+import Card from '../Cards/Card'
 
 const Hero = () => {
     return (
@@ -9,17 +10,28 @@ const Hero = () => {
             Discover the Perfect <br />
             Ringtone for Every Mood and Moment
         </div>
-        <div className='h-[88px] w-[1216px] absolute top-[382px] left-[32px] gap-[120px] flex justify-between items-center '>
-            <input name="Search" id="search" placeholder='Search' className='h-[88px] w-[921.37px] rounded-[60px] p-[32px] border-black border-solid border-2'></input>
-
-            <div className='h-[36px] w-[174.63px] gap-[24px] flex font-lighter'>
-            <FaArrowRightLong className='rotate-45 w-[32px] h-[36px]'/>
-            <button className='flex h-[36px] w-[128px] Urbanist leading-[36.4px] text-[28px] text-[#232323] font-[600] tracking-[-1%]'>Browse All</button>
-            </div>
-        </div>
-            <Rectangle/>
-            <div className='h-[87px] w-[1216px] absolute top-[862px] left-[32px] font-[700] text-[67px] leading-[87.1px] tracking-[-2.5%]'>
+            <Rectangle image='/images/tamplate1.png'/>
+            <Searchbar/>
+            <div className='h-[87px] w-[1216px] absolute top-[862px] left-[32px] font-[700] text-[67px] leading-[87.1px] tracking-[-2.5%] text-[#232323]'>
                 Trending Now
+            </div>
+            <div className='h-[320px] w-[1215px] absolute top-[981px] left-[32px] gap-[24px] flex'>
+                <Card image='/images/card1.png'/>
+                <Card image='/images/card2.png'/>
+                <Card image='/images/card3.png'/>
+            </div>
+            <div className='h-[87px] w-[1216px] absolute top-[1421px] left-[32px] font-[700] text-[67px] leading-[87.1px] tracking-[-2.5%] text-[#232323]'>
+                Popular Now
+            </div>
+            <div className='h-[320px] w-[1215px] absolute top-[1540px] left-[32px] gap-[24px] flex'>
+            <Card image='/images/card4.png'/> 
+            <Card image='/images/card5.png'/>
+            <Card image='/images/card6.png'/>
+            </div>
+            <div className='h-[320px] w-[1215px] absolute top-[1892px] left-[32px] gap-[24px] flex'>
+            <Card image='/images/card7.png'/>
+            <Card image='/images/card8.png'/>
+            <Card image='/images/card9.png'/>
             </div>
         </>
     )
