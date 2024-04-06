@@ -4,7 +4,7 @@ import Hero from './component/Hero/Hero'
 
 const page = () => {
   return (
-    <div >
+    <div className='relative'>
       <Navigation/>
       <Hero/>
     </div>
