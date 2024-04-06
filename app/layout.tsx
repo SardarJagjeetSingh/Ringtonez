@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
+import Navigation from "./component/Navigation/Navigation";
+import Footer from "./component/Footer/Footer";
+
 
 const Urbanist_ = Urbanist({ 
 subsets: ["latin"],
@@ -18,9 +21,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
-      <body className={Urbanist_.className}>{children}</body>
+      <body className={Urbanist_.className}>
+        {children}</body>
     </html>
   );
 }
