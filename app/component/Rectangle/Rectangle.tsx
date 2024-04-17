@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import img from '@/public/Images/tamplate1.png'
+import dynamic from "next/dynamic";
+
 
 interface Props{
   image : string;
@@ -14,4 +15,4 @@ const Rectangle = ({image}:Props) => {
   )
 }
 
-export default Rectangle
+export default dynamic (() => Promise.resolve(Rectangle), {ssr: false})

@@ -1,16 +1,14 @@
 import React from 'react'
-import Navigation from './component/Navigation/Navigation'
-import Hero from './component/Hero/Hero'
-import Footer from './component/Footer/Footer'
+import dynamic from "next/dynamic";
+import Home from './Home/Page';
+
 
 const page = () => {
   return (
     <div className='relative'>
-      <Navigation/>
-      <Hero/>
-      <Footer/>
+      <Home/>
     </div>
   )
 }
 
-export default page
+export default dynamic (() => Promise.resolve(page), {ssr: false})

@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import dynamic from "next/dynamic";
+
 
 interface Props{
     image:string
@@ -14,4 +16,4 @@ const Card = ({image}:Props) => {
     )
 }
 
-export default Card
+export default dynamic (() => Promise.resolve(Card), {ssr: false})

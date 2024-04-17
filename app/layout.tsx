@@ -25,7 +25,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={Urbanist_.className}>
-        {children}</body>
+        <Navigation/>
+        {children}
+        <Footer/>
+        </body>
+        
     </html>
   );
 }

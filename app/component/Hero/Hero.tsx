@@ -2,6 +2,8 @@ import React from 'react'
 import Rectangle from '../Rectangle/Rectangle'
 import Searchbar from '../Searchbar/Searchbar'
 import Card from '../Cards/Card'
+import dynamic from "next/dynamic";
+
 
 const Hero = () => {
     return (
@@ -10,7 +12,7 @@ const Hero = () => {
             Discover the Perfect <br />
             Ringtone for Every Mood and Moment
         </div>
-            <Rectangle image='/images/tamplate1.webp'/>
+            <Rectangle image="/images/tamplate1.webp"/>
             <Searchbar/>
             <div className='h-[87px] w-[1216px] absolute top-[862px] left-[32px] font-[700] text-[67px] leading-[87.1px] tracking-[-2.5%] text-[#232323]'>
                 Trending Now
@@ -37,4 +39,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default dynamic (() => Promise.resolve(Hero), {ssr: false})

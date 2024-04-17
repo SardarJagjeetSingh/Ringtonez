@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaArrowRightLong } from 'react-icons/fa6'
+import dynamic from "next/dynamic";
+
 
 const Searchbar = () => {
   return (
@@ -15,4 +17,4 @@ const Searchbar = () => {
   )
 }
 
-export default Searchbar
+export default dynamic (() => Promise.resolve(Searchbar), {ssr: false})

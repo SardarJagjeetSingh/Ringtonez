@@ -1,11 +1,11 @@
 import React from 'react'
 
-const About = () => {
+const Ringtone = () => {
   return (
     <div>
-      About
+      Ringtone
     </div>
   )
 }
 
-export default About
+export default Ringtone
