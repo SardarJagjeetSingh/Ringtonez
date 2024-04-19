@@ -11,30 +11,40 @@ const PrivacyPolicy = () => {
             <div className='h-[311px] w-[1216px] gap-[32px] flex flex-col'>
                 <div className='h-[87px] w-[1216px] font-[700] text-[67px] leading-[87.1px] tracking-[-2.5%] text-[#232323]'>Information We Collect</div>
                 <div className='h-[64px] w-[1216px] font-[700] text-[21px] leading-[31.5px] text-[#232323]'>
-                    Personal Information: <span className='font-[400]'>When you register an account, make a purchase, or contact us for support, we may collect personal information such as your name, email address, billing address, and phone number.</span>
-
-                   <br /> Usage Data: <span className='font-[400]'>We may automatically collect certain information when you visit our website, including your IP address, browser type, operating system, and browsing behavior. This information helps us analyze trends, improve our website, and customize your experience.
-                    </span>
+                    <div>
+                        Personal Information: <span className='font-[400]'>When you register an account, make a purchase, or contact us for support, we may collect personal information such as your name, email address, billing address, and phone number.</span>
+                    </div>
+                    <div>
+                        <br /> Usage Data: <span className='font-[400]'>We may automatically collect certain information when you visit our website, including your IP address, browser type, operating system, and browsing behavior. This information helps us analyze trends, improve our website, and customize your experience.
+                        </span>
+                    </div>
                 </div>
             </div>
 
             <div className='h-[407px] w-[1216px] gap-[32px] flex flex-col'>
                 <div className='h-[87px] w-[1216px] font-[700] text-[67px] leading-[87.1px] tracking-[-2.5%] text-[#232323]'>How We Use Your Information</div>
                 <div className='h-[64px] w-[1216px] font-[700] text-[21px] leading-[31.5px] text-[#232323]'>
-                    To Provide Services: <span className='font-[400]'> We use your personal information to fulfill your requests, process transactions, and deliver the products or services you've purchased.</span>
-
-                   <br /> To Communicate with You: <span className='font-[400]'> We may use your contact information to send you important updates, newsletters, promotional offers, and other communications related to our products and services. You can opt out of receiving marketing communications at any time.</span>
-
-                    <br />To Improve Our Services: <span className='font-[400]'> We analyze usage data to better understand how visitors interact with our website and to identify areas for improvement.</span>
+                    <div>
+                        To Provide Services: <span className='font-[400]'> We use your personal information to fulfill your requests, process transactions, and deliver the products or services you've purchased.</span>
+                    </div>
+                    <div>
+                        <br /> To Communicate with You: <span className='font-[400]'> We may use your contact information to send you important updates, newsletters, promotional offers, and other communications related to our products and services. You can opt out of receiving marketing communications at any time.</span>
+                    </div>
+                    <div>
+                        <br />To Improve Our Services: <span className='font-[400]'> We analyze usage data to better understand how visitors interact with our website and to identify areas for improvement.</span>
+                    </div>
                 </div>
             </div>
 
             <div className='h-[311px] w-[1216px] gap-[32px] flex flex-col'>
                 <div className='h-[87px] w-[1216px] font-[700] text-[67px] leading-[87.1px] tracking-[-2.5%] text-[#232323]'>Information Sharing and Disclosure</div>
                 <div className='h-[64px] w-[1216px] font-[700] text-[21px] leading-[31.5px] text-[#232323]'>
-                    Third-Party Service Providers: <span className='font-[400]'> We may share your information with trusted third-party service providers who assist us in operating our website, conducting business, or servicing you. These third parties are contractually obligated to keep your information confidential and secure.</span>
-
-                   <br /> Legal Compliance: <span className='font-[00]'> We may disclose your information if required to do so by law or in response to valid legal requests, such as court orders or subpoenas.</span></div>
+                    <div>
+                        Third-Party Service Providers: <span className='font-[400]'> We may share your information with trusted third-party service providers who assist us in operating our website, conducting business, or servicing you. These third parties are contractually obligated to keep your information confidential and secure.</span>
+                    </div>
+                    <div>
+                        <br /> Legal Compliance: <span className='font-[400]'> We may disclose your information if required to do so by law or in response to valid legal requests, such as court orders or subpoenas.</span></div>
+                </div>
             </div>
 
             <div className='h-[215px] w-[1216px] gap-[32px] flex flex-col'>
