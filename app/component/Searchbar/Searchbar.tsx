@@ -17,4 +17,4 @@ const Searchbar = () => {
   )
 }
 
-export default dynamic (() => Promise.resolve(Searchbar), {ssr: false})
+export default Searchbar

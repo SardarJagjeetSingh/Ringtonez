@@ -16,4 +16,4 @@ const Card = ({image}:Props) => {
     )
 }
 
-export default dynamic (() => Promise.resolve(Card), {ssr: false})
+export default Card

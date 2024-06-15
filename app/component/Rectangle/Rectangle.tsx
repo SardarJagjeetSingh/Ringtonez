@@ -15,4 +15,4 @@ const Rectangle = ({image}:Props) => {
   )
 }
 
-export default dynamic (() => Promise.resolve(Rectangle), {ssr: false})
+export default Rectangle
