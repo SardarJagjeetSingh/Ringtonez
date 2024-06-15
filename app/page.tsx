@@ -1,11 +1,12 @@
 import React from 'react'
-import dynamic from "next/dynamic";
 import Home from './Home/page';
+import Hero from './component/Hero/Hero';
 
 
 const page = () => {
   return (
-      <Home/>
+      // <Home />
+      <Hero/>
   )
 }
 
