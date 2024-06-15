@@ -4,17 +4,21 @@ import dynamic from "next/dynamic";
 
 const Navigation = () => {
   return (
-    <div className='h-[24px] w-[1216px] relative top-[32px] left-[32px] flex justify-between items-center text-[#232323]'>
-      <div className='h-[24px] w-[103px] Urbanist font-[700] text-[16px] leading-[24px]'>Ringtonez</div>
-      <div className='h-[24px] w-[355px] flex justify-between items-center text-[16px] leading-[24px] gap-[48px]'>
-        <Link href={`/`} className='hover:font-[700]'>Home</Link>
-        <Link href={`/Ringtone`} className='hover:font-[700]'>Ringtonz</Link>
-        <Link href={`/About`} className='hover:font-[700]'>About</Link>
-        <Link href={`/Contact`} className='hover:font-[700]'>Contact</Link>
-      </div>
-      <div className='h-[24px] w-[56.88px] gap-[10px] flex items-center'>
-        <FaYoutube />
-        <FaInstagram />
+    <div className='py-6 pt-8 px-5 '>
+      <div className='container mx-auto flex justify-between items-center text-black'>
+        <div className='w-full Urbanist font-bold text-xl leading-[24px]'>
+          <Link href={`/Home`} className='hover:font-bold'>Ringtonez</Link>
+        </div>
+        <div className=' flex justify-center items-center text-xl leading-5 gap-12'>
+          <Link href={`/Home`} className='hover:font-bold'>Home</Link>
+          <Link href={`/Ringtone`} className='hover:font-bold'>Ringtonz</Link>
+          <Link href={`/About`} className='hover:font-bold'>About</Link>
+          <Link href={`/Contact`} className='hover:font-bold'>Contact</Link>
+        </div>
+        <div className='w-full gap-3 flex justify-end items-center'>
+          <Link href={`https://www.youtube.com/@MindfulMasters2`} target='_blank' className='hover:font-bold'><FaYoutube /></Link>
+          <Link href={`https://www.youtube.com/@MindfulMasters2`} target='_blank' className='hover:font-bold'><FaInstagram /></Link>
+        </div>
       </div>
     </div>
   )

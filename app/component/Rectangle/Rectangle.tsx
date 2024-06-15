@@ -9,8 +9,8 @@ interface Props{
 
 const Rectangle = ({image}:Props) => {
   return (
-    <div className='h-[240px] w-[1217px] absolute top-[502px] left-[32px] rounded-[32px] overflow-hidden '>
-      <Image src={image} alt='img1' layout='fill' objectFit='cover'/>
+    <div className='container h-60 rounded-4xl overflow-hidden'>
+      <Image src={image} alt='img1' height={10} width={1500} layout='fixed' objectFit='cover'/>
     </div>
   )
 }

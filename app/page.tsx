@@ -5,9 +5,7 @@ import Home from './Home/page';
 
 const page = () => {
   return (
-    <div className='relative'>
       <Home/>
-    </div>
   )
 }
 
