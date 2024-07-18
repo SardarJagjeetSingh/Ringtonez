@@ -7,10 +7,10 @@ const Navigation = () => {
     <div className='py-6 pt-8 px-5 '>
       <div className='container mx-auto flex justify-between items-center text-black'>
         <div className='w-full Urbanist font-bold text-xl leading-[24px]'>
-          <Link href={`/Home`} className='hover:font-bold'>Ringtonez</Link>
+          <Link href={`/`} className='hover:font-bold'>Ringtonez</Link>
         </div>
         <div className=' flex justify-center items-center text-xl leading-5 gap-12'>
-          <Link href={`/Home`} className='hover:font-bold'>Home</Link>
+          <Link href={`/`} className='hover:font-bold'>Home</Link>
           <Link href={`/Ringtone`} className='hover:font-bold'>Ringtonz</Link>
           <Link href={`/About`} className='hover:font-bold'>About</Link>
           <Link href={`/Contact`} className='hover:font-bold'>Contact</Link>
